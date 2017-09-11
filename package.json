@@ -1,0 +1,23 @@
+{
+  "name": "mygoogle-yelp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "heroku-postbuild": "cd react-ui/ && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MansouriAhmed/Mygoogle-yelp.git"
+  },
+  "author": "Ahmed Mansouri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MansouriAhmed/Mygoogle-yelp/issues"
+  },
+  "homepage": "https://github.com/MansouriAhmed/Mygoogle-yelp#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
